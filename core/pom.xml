@@ -8,6 +8,7 @@
 	<artifactId>core</artifactId>
 	<packaging>pom</packaging>
 	<modules>
+		<module>org.json.simple</module>
 		<module>tern.core</module>
 		<module>tern.server.rhino</module>
 		<module>tern.server.nodejs</module>

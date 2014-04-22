@@ -80,19 +80,17 @@
 			
 		</plugins>
 	</build>
-	<dependencies>
-		<dependency>
-			<groupId>com.googlecode.json-simple</groupId>
-			<artifactId>json-simple</artifactId>
-			<version>1.1.1</version>
-		</dependency>
-	</dependencies>
 
 	<repositories>
 		<repository>
-			<id>indigo</id>
+			<id>kepler</id>
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/releases/kepler</url>
+		</repository>
+		<repository>
+			<id>orbit</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20140114142710/repository/</url>
 		</repository>
 		<repository>
 			<id>license-feature</id>
